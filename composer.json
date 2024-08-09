@@ -1,0 +1,17 @@
+{
+  "name": "innakoimchidu/0324_login_registr_inna_koimchidu",
+  "autoload": {
+    "psr-4": {
+      "Innakoimchidu\\0324LoginRegistrInnaKoimchidu\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Inna Koimchidu",
+      "email": "inna.koimchidu@gmail.com"
+    }
+  ],
+  "require": {
+    "imagick/imagick": "^3.4"
+  }
+}

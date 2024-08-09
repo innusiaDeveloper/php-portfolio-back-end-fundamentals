@@ -1,0 +1,87 @@
+/* -------------------------------------------------------------------------------------- */
+/* --------------------------------Datenbankabfrage-------------------------------------- */
+/* -------------------------------------------------------------------------------------- */
+
+main {
+  max-width: 90%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="file"],
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 50%;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+#posts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.post {
+  width: calc(50% - 10px);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.post img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.post p {
+  margin-top: 5px;
+}
+
+@media (max-width: 768px) {
+  .post {
+    width: calc(100% - 10px);
+  }
+}

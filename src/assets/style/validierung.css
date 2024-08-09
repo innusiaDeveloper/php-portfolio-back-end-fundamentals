@@ -1,0 +1,138 @@
+/* -------------------------------------------------------------------------------------- */
+/* -----------------------------Formular Validierung ------------------------------------ */
+/* -------------------------------------------------------------------------------------- */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.column {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  border-radius: 0.625rem;
+  box-shadow: 0rem 0.25rem 0.625rem rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 56.25rem;
+  width: 100%;
+}
+
+.top-column {
+  flex: 1;
+  padding: 2.5rem;
+  background-color: #f9f9f9;
+  padding-bottom: 2rem;
+}
+
+.bottom-column {
+  flex: 1;
+  padding: 2.5rem;
+  padding-top: 2rem;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 1.25rem;
+}
+
+h7 {
+  line-height: 2;
+  color: #333;
+  font-size: 16px;
+}
+
+p {
+  line-height: 1.6;
+  color: red;
+}
+
+h3 {
+  color: #333;
+  margin-top: 1.875rem;
+  margin-bottom: 0.625rem;
+}
+
+.form-group {
+  margin-bottom: 1.25rem;
+  margin-top: 2rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.3125rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  width: 100%;
+  padding: 0.625rem;
+  border: 0.0625rem solid #ccc;
+  border-radius: 0.3125rem;
+  box-sizing: border-box;
+}
+
+input[type="radio"] {
+  margin-right: 0.3125rem;
+}
+
+input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+button[type="submit"] {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.625rem 1.25rem;
+  font-size: 1.125rem;
+  background-color: #7c7c7c;
+  color: #f9f9f9;
+  border-radius: 0.625rem;
+  border: 0.0625rem solid #141414;
+  cursor: pointer;
+  margin-bottom: 4.375rem;
+  margin-left: 3rem;
+  margin-top: 1.25rem;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #141414;
+  color: #f9f9f9;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.75rem;
+  margin-top: 0.3125rem;
+}
+
+.success-message {
+  color: #333;
+  font-size: 0.875rem;
+  margin-top: 0.625rem;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.form-container {
+  background-color: #7c7c7c;
+  padding: 2rem;
+  border-radius: 0.625rem;
+  box-shadow: 0rem 0.25rem 0.625rem rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+  margin-bottom: 1.25rem;
+}
